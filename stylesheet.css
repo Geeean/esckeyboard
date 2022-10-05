@@ -14,8 +14,8 @@
   display: inline-block;
 }
 footer{
-  background-color: black;
-  color: white;
+  background-color: #141313;
+  color: silver;
 }
 
 .closer{
@@ -25,9 +25,6 @@ footer{
   padding: 4px;
 }
 
-.right{
-  justify-content: flex-end;
-}
 
 moveright{
   padding-right: 2px;
@@ -46,14 +43,18 @@ moveright{
 }
 
 .left{
-  margin-left: 7%;
+  margin-left: 15%;
 }
 .right{
-  margin-right: 6%;
-}
+  margin-right: 0%;
+  justify-content: flex-end;
 
+}
+.iconright{
+  margin-right: 10%;
+}
 h1{
-  margin-left: 8%;
+  margin-left: 16.5%;
 }
 
 .top{
@@ -61,7 +62,7 @@ h1{
 }
 
 .fontc{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 navvb{
@@ -69,5 +70,25 @@ navvb{
 }
 
 .productext{
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.textspace{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.small{
   font-size: x-small;
+}
+
+.textfix{
+  flex-basis: auto;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.black{
+  color: black;
 }
